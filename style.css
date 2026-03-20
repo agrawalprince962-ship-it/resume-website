@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #1e2a38;
+    color: white;
+    padding: 15px 40px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #1e2a38;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
